@@ -13,6 +13,10 @@ The system generates text by learning transition patterns from an input sequence
 * Clean state-transition table output for straightforward inspection.
 * Simple text generation pipeline that is easy to integrate or expand.
 
+## Sample run
+* `txtgen.py` generates a sample input text using a 5-ary alphabet with a predefined transition matrix.
+* The resulting transition table produced by `main.py` can be compared with the original matrix to verify correctness.
+
 ## Usage
 
 1. Generate the input text using:
